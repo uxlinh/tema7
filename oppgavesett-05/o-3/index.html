@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width' , initial-scale='1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Document</title>
+  <link rel='stylesheet' href='index.css'>
+</head>
+
+<body>
+
+  <main>
+    <section id="knapper">
+      <h1>Velg lyd</h1>
+
+      <audio src="./lyd/floyte.mp3" id="floyte"></audio>
+      <button id="btnFloyte" data-lyd="floyte">Fløyte</button>
+
+      <audio src="./lyd/harpe.mp3" id="harpe"></audio>
+      <button id="btnHarpe" data-lyd="harpe">Harpe</button>
+
+      <audio src="./lyd/piano.mp3" id="piano"></audio>
+      <button id="btnPiano" data-lyd="piano">Piano</button>
+    </section>
+  </main>
+
+  <!-- 
+    data-lyd="floyte"
+    data-lyd="harpe"
+   -->
+  <!-- Data er en attributt som alltid må startes med og deretter med bindestrek -  -->
+  <script src="index.js"></script>
+</body>
+
+</html>

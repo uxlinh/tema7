@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(240, 240, 220);
+}
+
+#boks1, #boks2 {
+    transition: 1s;
+}
