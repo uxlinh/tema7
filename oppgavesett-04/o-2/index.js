@@ -20,6 +20,7 @@ function visVenner() {
         `
     }
 }
+
 function leggTilVenn() {
     const nyVenn = { navn: inpNavn.value, alder: inpAlder.value } 
     venner = [nyVenn, ...venner]

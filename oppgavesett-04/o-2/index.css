@@ -10,7 +10,6 @@ div.container{
     width: 500px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    
 }
 div.venntabell {
     border: 1px solid black;
