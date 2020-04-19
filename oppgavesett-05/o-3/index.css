@@ -1,3 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-color: rgb(203, 232, 254);
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: rgb(29, 13, 106);
+    font-size: 1.8rem;
+}
+
 button {
-    margin: 1rem;
+    height: 2.8rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: rgb(29, 13, 106);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0.9rem;
 }
