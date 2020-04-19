@@ -1,28 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-color: rgb(203, 232, 254);
+}
+
 main {
     display: flex;
     flex-flow: column;
     align-items: center;
+    color: rgb(29, 13, 106);
+    font-size: 1.8rem;
 }
 
-body {
-    font-size: 2rem;
-    
-}
 
-input {
-    width: rem;
+input{
+    width: 14rem;
     height: 1.6rem;
     font-size: 1rem;
     border-radius: 0.3rem;
     box-shadow: none;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0.2rem;
+    border: rgb(29, 13, 106) solid 2px;
+    padding: 0.5rem;
 }
+
+input::placeholder {
+    color: rgb(185, 192, 227);
+    padding: 0.1rem;
+  }
+
+  p {
+      font-size: 1.5rem;
+  }
 button {
-    height: 2rem;
+    height: 2.8rem;
     font-size: 1rem;
     border-radius: 0.3rem;
-    border: 2px solid rgb(176, 176, 176);
+    border: none;
+    background-color: rgb(29, 13, 106);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 0.2rem;
+    padding: 0.5rem;
 }
+
+
